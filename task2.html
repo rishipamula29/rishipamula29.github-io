@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+
+    /* Header */
+    header {
+      background: #2d2d2d;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 { margin: 0; }
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 20px;
+      background: white;
+    }
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    /* Features */
+    .features {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    /* Testimonials */
+    .testimonials {
+      background: #ffffff;
+      padding: 40px 20px;
+    }
+    .testimonial-box {
+      background: #eee;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* Footer */
+    footer {
+      background: #2d2d2d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header { flex-direction: column; }
+      nav { margin-top: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>RishiTech</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Building Smart Digital Solutions</h2>
+      <p>A platform created by Rishi Pamula to deliver smart, fast, and modern tech solutions.</p>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature-box">
+      <h3>⚡ Smart Attendance System</h3>
+      <p>QR‑based attendance system built for accuracy and speed.</p>
+    </div>
+    <div class="feature-box">
+      <h3>💻 Python & Django Projects</h3>
+      <p>Your data is safe with enterprise‑level encryption.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🧠 Tech Skills</h3>
+      <p>Python, HTML, CSS, JavaScript, Django, MySQL, MongoDB.</p>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <h2 style="text-align:center">About Rishi</h2>
+    <div class="testimonial-box">
+      <p>"Amazing product! It boosted our team's productivity by 40%." – Mentor</p>
+    </div>
+    <div class="testimonial-box">
+      <p>"Super fast and extremely reliable. Highly recommended!" – Student Peer</p>
+    </div>
+    <div class="testimonial-box">
+      <p>"Perfect for startups and small businesses." – Faculty Feedback</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 TechStart • All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
