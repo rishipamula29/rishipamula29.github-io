@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-left: 5px solid #333;
+            padding-left: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Responsive */
+        @media(max-width: 600px) {
+            h1 { font-size: 24px; }
+            section { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rishi Pamula</h1>
+        <p>Welcome to my personal website</p>
+    </header>
+
+    <div class="container">
+
+        <section class="profile">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" />
+            <p>Hello! I'm Rishi, a BCA student passionate about coding, technology, and developing cool projects.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>BCA – KL University</li>
+                <li>Intermediate – MPC</li>
+                <li>Schooling – SSC</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Django Basics</li>
+                <li>MySQL & MongoDB</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Smart Attendance System using QR Scan</li>
+                <li>Basic Django Blog App</li>
+                <li>Python Data Analysis Mini Projects</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>
